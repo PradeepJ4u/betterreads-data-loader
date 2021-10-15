@@ -1,10 +1,14 @@
+datadump.location:
+  author: D:\code\betterreads\betterreads-data-loader\src\main\resources\test-authors.txt
+  works: D:\code\betterreads\betterreads-data-loader\src\main\resources\test-work.txt
+
 spring:
   data:
     cassandra:
       keyspace-name: main
       username: xlmOhNwrmuOpNkObwSBCGMAA
       password: FqRol,E1bDv4vZ35PI+Ti91u-LWLCSKBuOs95ZHUATWu-B7Pd1YFQdjWz6XuvGDX-CnMEp.vyoYOLN-A6f02v0uhCZNBa_xW4BfoewyO-rf-NsprcaPr9urO,TcIUcvY
-      schema-action: create-if-not-exists
+      schema-action: recreate
       request:
         timeout: 10s
       connection:
