@@ -1,6 +1,6 @@
 datadump.location:
-  author: D:\code\betterreads\betterreads-data-loader\src\main\resources\test-authors.txt
-  works: D:\code\betterreads\betterreads-data-loader\src\main\resources\test-work.txt
+  author: E:\Learning\git\betterreads-data-loader\src\main\resources\test-authors.txt
+  works: E:\Learning\git\betterreads-data-loader\src\main\resources\test-work.txt
 
 spring:
   data:
